@@ -1,16 +1,11 @@
-# desafio2
+# Desafio 2
 
-Desafio 2 - digiUP
+Aplicação de Notícias com Tabs
 
-## Getting Started
+## Objetivo
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Criar uma aplicação de notícias que organize as notícias em diferentes categorias usando tabs.\
+O aplicativo deve consumir uma API de notícias ([exemplo](https://newsapi.org)) e apresentar as notícias em tabs categorizadas (por exemplo, Tecnologia, Desporto, Entretenimento).\
+Deve implementar TabBar e TabBarView para navegação entre as categorias.\
+Cada tab deve exibir uma lista de notícias, e ao clicar em uma notícia, deve-se abrir uma nova janela com os detalhes completos.\
+Implementação de cache local das notícias para acesso offline pode ser um plus.\
